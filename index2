@@ -1,0 +1,101 @@
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <link rel="stylesheet" href="style.css" <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+
+    <body>
+        <h1>Sağlığa Dair Her Şey </h1>
+        <p>Saç Dökülmesi </p>
+        <hr>
+
+        <a><img src="1516784983550-sac-dokulmesi.jpg" </a>
+            <p>Mevcut her saç telinin bir yaşam siklusu vardır. Her saç teli 4- 6 yıl yaşar, sonra dinlenir ve daha sonra da dökülür. Saçların bu şekilde dökülmesi son derece doğal bir süreçtir ve günde 50-100 tel saç dökülmesi normal kabul edilir. Eğer
+                bu sayıdan daha fazla dökülüyorsa, banyo yaparken ele gelen saç miktarı artmışsa ya da yıkanmış kurulanmış saçı elle çektiğimizde elimize 3-5 adet saç teli geliyorsa bu durumun ciddiye alınması gerekir. Saç dökülmesinin çok farklı nedenleri
+                olabilir. Önemli olan bu nedenin saptanması ve uygun tedavinin yapılmasıdır.</p>
+            <p>Saçlar Neden Dökülür ?</p>
+            <hr>
+
+            <!--Üst menü-->
+            <header>
+                <h1></h1>
+                <ul>
+                    <li>Genetik Faktörler </li>
+                    <li>Deri Problemleri </li>
+                    <li>Vitamin Eksikliği</li>
+                    <li>Stres ve Uyku Bozukluğu gibi faktörler saç dökülmesinde önemli rol oynar</li>
+
+                </ul>
+                <p>Saç Dökülmesine Ne İyi Gelir ?</p>
+                <hr>
+                <p>
+                    <li>Saçı beslemek için hindistan cevizi yağı, biberiye yağı, nane yağı ve argan yağını saça uygulamak
+                    </li>
+                    <li>Saça kimyasal ürün kullanmaktan kaçınmak</li>
+                    <li>Saçı her gün yıkamaktan kaçınmak</li>
+                    <li>Saç tipine uygun şampuan kullanmak</li>
+                    <li>Bol su içerek saç derisinin nemli kalmasını sağlamak</li>
+                    <li>Saça yoğun ısı uygulayan şekillendirme aletlerinden kaçınmak</li>
+                    <li>Stresten uzak durmak</li>
+                    <li>Protein, omega-3, biotin, B12, folik asit ve D vitamini takviyesi almak</li>
+                    <nav>
+                        <li>Saç derisini temiz ve bakımlı tutmak</li>
+                        <a href="sağlık.html"></a>
+                        <a href="ciltbakimi.html"></a>
+                        <a href="iletisim"></a>
+                    </nav>
+            </header>
+
+
+            <main>
+
+            </main>
+
+            <!--Alt kısım -->
+            <footer>
+                <p>©2025 Sağlığa Dair - Tüm Hakları Saklıdır</p>
+            </footer>
+
+            <body>
